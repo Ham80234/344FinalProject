@@ -1,0 +1,13 @@
+#Module-Container{
+    border: 2px solid;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.hour_textbox{
+    width: 30px;
+    float: right;
+}
+.Min_textbox{
+    width: 30px;
+}
