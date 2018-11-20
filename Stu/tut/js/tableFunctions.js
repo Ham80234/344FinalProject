@@ -125,24 +125,24 @@
                 for (y = 0; y < tableentries.length-1; y++) { 
                     var tokens = tableentries[y].split(",");
                   
-                    if (tokens[y] == "monday") {
+                    if (tokens[0] == "monday") {
                         m.push({spot: parseInt(tokens[1]), text: tokens[2], width: parseInt(tokens[3])});
                     }
                     
-                    if (tokens[y] == "tuesday") {
+                    if (tokens[0] == "tuesday") {
                         t.push({spot: parseInt(tokens[1]), text: tokens[2], width: parseInt(tokens[3])});
                     }
                     
-                    if (tokens[y] == "wednesday") {
+                    if (tokens[0] == "wednesday") {
                         w.push({spot: parseInt(tokens[1]), text: tokens[2], width: parseInt(tokens[3])});
                     }
                     
                     
-                    if (tokens[y] == "thursday") {
+                    if (tokens[0] == "thursday") {
                         r.push({spot: parseInt(tokens[1]), text: tokens[2], width: parseInt(tokens[3])});
                     }
                     
-                    if (tokens[y] == "friday") {
+                    if (tokens[0] == "friday") {
                         f.push({spot: parseInt(tokens[1]), text: tokens[2], width: parseInt(tokens[3])});
                     }
                     

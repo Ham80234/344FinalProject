@@ -9,16 +9,11 @@
     <link rel="stylesheet" type="text/css" media="screen" href="Mod-CSS.css" />
     <script src="main.js"></script>
 </head>
+
 <body>
     <div id="Module-Container">
 
-        <form action="holder2.php" method = "GET">
-                <select name="Classes" >
-                        <option value="234-250">234-250</option>
-                        <option value="275">275</option>
-                        <option value="341">341</option>
-                        <option value="375">375</option>
-                      </select>
+        <form action="TutorSelect">
             <table>
                 <tr>
                     <td>
@@ -71,25 +66,25 @@
                 <td><label for="Start">Start Time</label></td>
                 <tr>
                     <td>
-                        <input class="hour_textbox"  name= "SHour" type="text" maxlength="2" placeholder="12">
+                        <input class="hour_textbox" type="text" maxlength="2" placeholder="12">
                     </td>
                     <td>
                         <label>:</label>
                     </td>
                     <td>
-                        <input class="Min_textbox" type="text" name= "SMin"maxlength="2" placeholder="00" value="00">
+                        <input class="Min_textbox" type="text" maxlength="2" placeholder="00">
                     </td>
                 </tr>
                 <td><label for="End">End Time</label></td>
                 <tr>
                     <td>
-                        <input class="hour_textbox" type="text" name= "EHour" maxlength="2" placeholder="12">
+                        <input class="hour_textbox" type="text" maxlength="2" placeholder="12">
                     </td>
                     <td>
                             <label>:</label>
                         </td>
                     <td>
-                        <input class="Min_textbox" type="text"  name= "EMin"maxlength="2" placeholder="00" value="00">
+                        <input class="Min_textbox" type="text" maxlength="2" placeholder="00">
                     </td>
                 </tr>
             </table>
@@ -100,7 +95,7 @@
                 </td>
                 <tr>
                     <td>
-                        <input type="text" name= "type"placeholder="Type">
+                        <input type="text" placeholder="Type">
                     </td>
                 </tr>
                 <td>
@@ -108,20 +103,19 @@
                 </td>
                 <tr>
                     <td>
-                        <input type="text" name= "Instr"placeholder="Instructor">
+                        <input type="text" placeholder="Instructor">
                     </td>
                 </tr>
                 <td>
                     <label for="Type">Location:</label>
                     ` <tr>
                         <td>
-                            <input type="text" name= "Loc" placeholder="Location">
+                            <input type="text" placeholder="Location">
                         </td>
                     </tr>
             </table>
-        <input type="submit">
-
         </form>
+        <input type="button" value="Submit">
         </div>
 </body>
 
