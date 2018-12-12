@@ -1,0 +1,5 @@
+monday,10,chic,3,Watkins 108*wednesday,10,chic,3,Watkins 108*tuesday,14,chic,2,wa*thursday,14,chic,2,wa*
+monday,6,chic,11,Watkins 108*friday,6,chic,11,Watkins 108*tuesday,16,chic,4,Watkins108*wednesday,16,chic,4,Watkins108*thursday,16,chic,4,Watkins108*
+tuesday,2,chic,5,Watkins 108*thursday,2,chic,5,Watkins 108*wednesday,11,chic,5,Watkins 108*
+monday,10,chic,4,Watkins 108*wednesday,10,chic,4,Watkins 108*friday,10,chic,4,Watkins 108*tuesday,4,chic,3,Watkins 108*
+monday,9,chic,9,Watkins 108*wednesday,9,chic,9,Watkins 108*friday,9,chic,9,Watkins 108*tuesday,2,chic,5,Watkins 108*thursday,2,chic,5,Watkins 108*

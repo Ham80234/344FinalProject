@@ -334,7 +334,7 @@ ul.menu .submenu a{
 }
 
 .wsu-flame{
-    height: 8%;
+    height: 30%;
     width: 12%;
     margin-bottom: 0.5em;
     margin-right: 0.5em;
@@ -680,3 +680,11 @@ a:hover.back-to-top {
 	overflow-y: scroll; 
 	height: 600px;
 }
+#Button{
+    
+    align-content: center;
+    margin-left: 50%;
+    background-color: #4e4db3;
+    border-color: #272e35;
+    
+ }
